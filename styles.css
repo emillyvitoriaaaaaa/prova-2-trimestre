@@ -1,0 +1,27 @@
+/*Seletor universal*/
+*{margin: 0px;
+    padding: 0px;}
+/*Corpo da Página*/
+body{
+    font-family: sans-serif;
+}
+/*Secção cabeçalho*/
+.cabecalho{
+    background-color: rgb(143, 48, 233);
+    color: rgb(143, 54, 226);
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 100px;
+    text-decoration: underline;
+}
